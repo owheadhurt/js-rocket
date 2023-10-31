@@ -3,6 +3,8 @@ body{
 }
 
 .cool{
+	visibility: hidden;
+	display: none;
 	width: 100px;
 	height: 100px;
 	background-color: green;
@@ -10,5 +12,7 @@ body{
 }
 
 .cool.red{
+	visibility: visible;
+	display: block;
 	background-color: red;
 }
